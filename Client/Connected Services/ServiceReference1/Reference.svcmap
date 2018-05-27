@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1505a5f0-79ad-49b7-aba6-1a9d82a73570" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4500/BookStore" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Store.wsdl" MetadataType="Wsdl" ID="dba1bbd1-0ff5-47c9-a6e5-4b7d3b3683da" SourceId="1" SourceUrl="http://localhost:4500/BookStore?wsdl" />
+    <MetadataFile FileName="BookStore.xsd" MetadataType="Schema" ID="79fbd41b-ea24-4f5a-95d5-4e4fb8892108" SourceId="1" SourceUrl="http://localhost:4500/BookStore?xsd=xsd1" />
+    <MetadataFile FileName="BookStore.disco" MetadataType="Disco" ID="0aaa4aa8-851f-4a4b-b331-fb3055f08738" SourceId="1" SourceUrl="http://localhost:4500/BookStore?disco" />
+    <MetadataFile FileName="BookStore1.xsd" MetadataType="Schema" ID="36d2454e-18cd-434d-acf6-1d9c0ecbc59e" SourceId="1" SourceUrl="http://localhost:4500/BookStore?xsd=xsd2" />
+    <MetadataFile FileName="BookStore2.xsd" MetadataType="Schema" ID="6a4137bc-4bfa-496e-84ba-d6d37938b52e" SourceId="1" SourceUrl="http://localhost:4500/BookStore?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
